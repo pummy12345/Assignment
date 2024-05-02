@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Software Engineer",
+        "company": "TechCorp",
+        "location": "San Francisco",
+        "experience": 2,
+        "remote": true,
+        "techStack": ["JavaScript", "React"],
+        "role": "Frontend Developer",
+        "basePay": 100000
+    },
+    {
+        "title": "Data Scientist",
+        "company": "DataTech",
+        "location": "New York",
+        "experience": 4,
+        "remote": false,
+        "techStack": ["Python", "TensorFlow"],
+        "role": "Data Analyst",
+        "basePay": 120000
+    }
+
+]
