@@ -15,7 +15,7 @@ export const useDummyData = () => {
                 headers: {
                     'Content-Type': 'application/json',
                 },
-                body: JSON.stringify({ limit: 100, offset: page * 100 }), // Set limit and offset for pagination
+                body: JSON.stringify({ limit: 10, offset: page * 100 }), // Set limit and offset for pagination
             });
 
             if (!response.ok) {
@@ -35,6 +35,7 @@ export const useDummyData = () => {
             if (data) {
                 setDummyJobs(data.jdList);
             }
+            console.log(data);
         });
     }, []);
 
